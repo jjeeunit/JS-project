@@ -17,11 +17,9 @@ let mode = "all";
 let filterList = [];
 addButton.addEventListener("click", addTask);
 
-for (let i = 1; i < tabs.length; i++) {
+for (let i = 0; i < tabs.length; i++) {
     tabs[i].addEventListener("click",function(event) {filter(event)})
 }
-
-console.log(tabs)
 
 function addTask()
 {
@@ -32,7 +30,6 @@ function addTask()
     };
 
     taskList.push(task);
-    console.log(task)
 
     render();
 }
@@ -78,9 +75,8 @@ function toggleComplete(id)
             break;
         }
     }
-
     render();
-    console.log(taskList);
+
 }
 
 function deleteTask(id)

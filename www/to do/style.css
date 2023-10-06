@@ -23,16 +23,6 @@ body{margin:0;
     padding:1em;
 }
 
-#under-line{
-    height:4px;
-    background-color:pink;
-    position:absolute;
-    width:70px;
-    left:0px;
-    top:52px;
-    padding:0px;
-}
-
 .task{
     display:flex;
     justify-content: space-between;
