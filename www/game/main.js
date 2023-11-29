@@ -11,16 +11,6 @@ Reset버튼을 누르면 게임이 리셋된다
 유저가 이미 입력한 숫자를 또 입력하면, 알려준다. 기회를 깍지 않는다
 맞추면 (버튼 비활성화)
 
-2. 더 알아봐
-playButton.addEventListener("click", play); //play에 변수처럼 써야지 함수를 쓰면 안됨
-Math.floor()
-`남은기회:${chances}번`;
-return
-push()
-includes()
-addEventListener("focus"
-익명함수
-
 */
 
 let computerNum = 0;
